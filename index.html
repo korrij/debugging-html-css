@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
-    <meta>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easter Bunny Debugging</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="layout.css">
@@ -16,7 +16,7 @@
   <body>
     <header>
       <h1>The Easter Bunny</h1>
-      <img src="easter-bunny-150-profile.png">
+      <img src="easter-bunny-150-profile.png" alt="Easter Bunny">
     </header>
     <nav id="myTopnav" class="topnav">
       <a href="index.html">Home</a>
@@ -30,20 +30,20 @@
       <aside class="accent1">
         <h2 class="accent2">Errors</h2>
         <dl>
-          <dt>HTML error...</dt>
+          <dt>Missing lang="en" on html tag on line 2</dt>
+          <dd>Added missing lang="en" on html tag on line 2</dd>
+          <dt>Element meta is missing attribute charset="UTF-8" </dt>
+          <dd>Added missing attribute element to meta charset="UTF-8"</dd>
+          <dt>Trailing on line 6</dt>
+          <dd>Removed trailing on line 6</dd>
+          <dt>img element missing alt attribute alt="Easter Bunny" on line 19</dt>
+          <dd>Added missing alt attribute alt="Easter Bunny" for img element on line 19</dd>
+          <dt>Element p not allowed as child element for h3 on line 80</dt>
           <dd>resolution...</dd>
           <dt>HTML error...</dt>
           <dd>resolution...</dd>
-          <dt>HTML error...</dt>
-          <dd>resolution...</dd>
-          <dt>HTML error...</dt>
-          <dd>resolution...</dd>
-          <dt>HTML error...</dt>
-          <dd>resolution...</dd>
-          <dt>HTML error...</dt>
-          <dd>resolution...</dd>
-          <dt>HTML error...</dt>
-          <dd>resolution...</dd>
+          <dt>Unclosed element for h3 on line 79</dt>
+          <dd>Added closed elment for h3 on line 79</dd>
         </dl>
       </aside>
 
@@ -76,7 +76,7 @@
         </article>
         <h2>In Summary</h2>
         <article>
-          <h3>Enough Content
+          <h3>Enough Content</h3>
             <p>You need enough content to thoroghly populate your page. The content should cause the page to be long enough to need to scroll. Keep copy/pasting content from Wikipedia until you have enough content to scroll. You will use this page later to embellish it with styles, color, formatting and layouts.</p>
         </article>
       </section>
