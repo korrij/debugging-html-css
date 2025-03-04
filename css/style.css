@@ -19,7 +19,7 @@ header {
 
 header img {
 	position: absolute;
-	top: 10px;
+	top: 0px;
 	right: 10%;
 	z-index: 5;
 	width: auto;
@@ -40,7 +40,7 @@ footer h2 {
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 5px;
+	font-size: px;
 	color: #B2D732;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
